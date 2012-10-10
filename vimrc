@@ -20,7 +20,7 @@ imap <right> <nop>
 
 map gw <C-W>w
 map gf G
-map gs ^
+map gh ^
 map ge $
 
 :imap <tab> <c-p>
