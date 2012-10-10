@@ -7,6 +7,7 @@ set background=dark
 colorscheme solarized
 
 let g:slime_target = "tmux"
+let b:slime_config = {"socket_name": "default", "target_pane": ":"}
 
 map <up> <nop>
 map <down> <nop>
