@@ -24,7 +24,9 @@ In vimrc
 arrow keys disabled (sorry)
 
 gh: home
+
 ge: end
+
 gw: same as ctrl-w w, go to next buffer in splitscreen
 
 tab: autocomplete word
@@ -34,8 +36,7 @@ bb
 - on block opening or closing line: send block to tmux
 - on plain line: send line to tmux
 
-bd
--  same as bb: but deletes selection/block/line after sending
+bd: same as bb, but deletes selection/block/line after sending
 
 In pryrc
 --------
