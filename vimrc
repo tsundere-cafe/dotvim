@@ -31,6 +31,6 @@ if has("autocmd")
   filetype indent on
 endif
 
-vmap bb <c-c><c-c>
-nmap bb V%<c-c><c-c>
-nmap bd bbgvd
+vmap tt <c-c><c-c>
+nmap tt V%<c-c><c-c>
+nmap td ttgvd

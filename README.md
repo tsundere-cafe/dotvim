@@ -32,12 +32,12 @@ gw: same as ctrl-w w, go to next buffer in splitscreen
 
 tab: autocomplete word
 
-bb
+tt
 - with selection: send selection to tmux
 - on block opening or closing line: send block to tmux
 - on plain line: send line to tmux
 
-bd: same as bb, but deletes selection/block/line after sending
+td: same as tt, but deletes selection/block/line after sending
 
 In pryrc
 --------
