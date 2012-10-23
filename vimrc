@@ -12,6 +12,10 @@ let b:slime_config = {"socket_name": "default", "target_pane": ":"}
 " enable and disable some stuff from statline
 let g:statline_fugitive = 1
 let g:statline_show_encoding = 0
+let g:statline_filename_relative = 1
+
+" bash style tabs
+set wildmode=longest,list
 
 map <up> <nop>
 map <down> <nop>
