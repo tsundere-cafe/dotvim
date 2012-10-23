@@ -1,2 +1,6 @@
 --type=text
 --smart-case
+
+--ignore-dir=tmp
+--ignore-dir=logs
+--ignore-dir=vendor
