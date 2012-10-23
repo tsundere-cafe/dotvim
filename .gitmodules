@@ -19,3 +19,9 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = http://github.com/mileszs/ack.vim
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/statline"]
+	path = bundle/statline
+	url = git://github.com/millermedeiros/vim-statline.git
