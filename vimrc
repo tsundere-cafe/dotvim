@@ -39,6 +39,15 @@ nmap td ttgvd
 " fix :Glog and :Ggrep to actually use a quickfix window
 autocmd QuickFixCmdPost *grep* cwindow
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""" modified from https://raw.github.com/scrooloose/vimfiles/master/vimrc """"
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 "display tabs and trailing spaces
 set list
-set listchars=tab:\|_,trail:⋅
+set listchars=tab:\|_,trail:⋅,nbsp:⋅
+
+set incsearch   "find the next match as we type the search
+
+set wrap        "dont wrap lines
+set linebreak   "wrap lines at convenient points
