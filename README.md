@@ -15,6 +15,7 @@ Then copy and paste:
     git clone git://github.com/plus-my/dotvim.git ~/.vim
     ln -s ~/.vim/vimrc ~/.vimrc
     ln -s ~/.vim/pryrc ~/.pryrc
+    ln -s ~/.vim/ackrc ~/.ackrc
     cd ~/.vim
     bundle
 
