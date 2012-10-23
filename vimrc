@@ -9,6 +9,10 @@ colorscheme solarized
 let g:slime_target = "tmux"
 let b:slime_config = {"socket_name": "default", "target_pane": ":"}
 
+" enable and disable some stuff from statline
+let g:statline_fugitive = 1
+let g:statline_show_encoding = 0
+
 map <up> <nop>
 map <down> <nop>
 map <left> <nop>
